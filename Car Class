@@ -1,0 +1,13 @@
+public class Car {
+    String color;
+    public Car(String carColor) {
+        this.color = carColor;
+    }
+    public void displayColor() {
+        System.out.println("The color of the car is: " + this.color);
+    }
+    public static void main(String[] args) {
+        Car myCar = new Car("Red");
+        myCar.displayColor();
+    }
+}
